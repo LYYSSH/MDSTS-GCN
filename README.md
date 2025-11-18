@@ -89,11 +89,9 @@ H3.6m
  The authors wish to acknowledge Panasonic for partially supporting this work and the project of the Italian Ministry of Education, Universities and Research (MIUR) “Dipartimenti di Eccellenza 2018-2022”.
 
  
- ### License 
- 
- MIT license
-引用
-如果您发现本项目对您的研究有所帮助，请考虑引用：
+
+###Citation
+If you find this project useful in your research, please consider cite:
 @article{xxxxx,
   title={Enhanced Human Motion Prediction via Multi-Scale Space-Time Graph Convolutional Network},
   author={Jing Wang,Yuying Li,Jiaxing Xue,Junlin Meng,Wanying Song},
