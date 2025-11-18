@@ -1,5 +1,4 @@
 
-
 # :warning:*Update about results and evaluation metric* [08/07/2022]
 
 A problem arises because no prior human pose forecasting work has explicitly written the test MPJPE metric. [Mao et al., 2020, Mao et al., 2019] have specified the MPJPE for the learning loss, and they have referred to the (same) MPJPE for testing, which is however different.
@@ -26,9 +25,7 @@ As noted in this thread, the code provided by [Mao et al., 2020] actually consid
 
 Running the test code of [Mao et al., 2020], short-term (400ms) and long-term (1000ms) errors for the Human3.6M dataset for STS-GCN are:
 
-Here we report this performance and specify the test MPJPE error, to avoid future discrepancies.
 
-![image](https://user-images.githubusercontent.com/44803179/177993948-c3a67077-7369-4758-a169-f912e0d70e97.png)
 
 
 --------
@@ -56,7 +53,6 @@ H3.6m
 
 
 ### Train
-The arguments for running the code are defined in [parser.py](utils/parser.py). We have used the following commands for training the network,on different datasets and body pose representations(3D and euler angles):
  
 ```bash
  python main_h36_3d.py --input_n 10 --output_n 25 --skip_rate 1 --joints_to_consider 22 
