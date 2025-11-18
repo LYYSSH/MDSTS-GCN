@@ -92,3 +92,15 @@ H3.6m
  ### License 
  
  MIT license
+引用
+如果您发现本项目对您的研究有所帮助，请考虑引用：
+@article{xxxxx,
+  title={Enhanced Human Motion Prediction via Multi-Scale Space-Time Graph Convolutional Network},
+  author={Jing Wang,Yuying Li,Jiaxing Xue,Junlin Meng,Wanying Song},
+  journal={The Visual Computer},
+  volume={xx},
+  number={xx},
+  pages={xx},
+  year={2025},
+  publisher={Springer}
+}
